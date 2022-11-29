@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>H1101211048</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+</head>
+<body class="mb-5 bg-dark">
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="profile.html" style="color: white;">Home</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active" aria-current="page" href="profile.html" style="color: white;">Profil</a>
+          <a class="nav-link" href="informasiakademik.html" style="color:white;">Informasi Akademik</a>
+          <a class="nav-link" href="registrasikeanggotaan.html" style="color:white">Registrasi Keanggotaan</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+    <div class="mx-5 bg-dark px-5" style="border-radius: 20px; margin-top: 20px;">
+      <h1 align="center" style="color:white;">Form Registrasi Keanggotaan Himpunan Mahasiswa Sistem Informasi</h1>
+        <form action="" method="post" enctype="multipart/form-data">
+            <div class="row g-5">
+                <div class="col">
+                  <input type="text" class="form-control" placeholder="Nama Lengkap" aria-label="Full name">
+                </div>
+            </div>
+              
+            <div class="form-floating my-2">
+                <input type="email" class="form-control" id="floatingInput" placeholder="Email">
+                <label for="floatingInput">Email address</label>
+            </div>
+            <div class="form-floating mb-2">
+                  <input type="Nomor" class="form-control" id="floatingInput" placeholder="No Handphone">
+                  <label for="floatingInput">No Handphone</label>
+            </div>
+            <div class="form-control mb-2">
+              <label for="disabledSelect" class="form-label">Program Studi</label>
+              <select id="disabledSelect" class="form-select">
+                <option>Sistem Informasi</option>
+              </select>
+            </div>
+            <div class="form-control mb-2">
+              <label for="disabledSelect" class="form-label">Angkatan</label>
+              <select id="disabledSelect" class="form-select">
+                <option>Angkatan</option>
+                <option>2018</option>
+                <option>2019</option>
+                <option>2020</option>
+                <option>2021</option>
+                <option>2022</option>
+              </select>
+            </div>
+            <div class="form-control mb-2">
+              <label for="disabledSelect" class="form-label">Divisi Pilihan 1</label>
+              <select id="disabledSelect" class="form-select">
+                <option>Divisi Pilihan 1</option>
+                <option>Sekretaris Umum</option>
+                <option>Bendahara Umum</option>
+                <option>Akademik</option>
+                <option>Kaderisasi</option>
+                <option>Kominfo</option>
+                <option>Minat dan Bakat</option>
+                <option>Kewirausahaan</option>
+              </select>
+            </div>
+            <div class="form-floating mb-2">
+              <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+              <label for="floatingTextarea2">Alasan dan Inovasi</label>
+            </div> 
+            <div class="form-control mb-2">
+              <label for="disabledSelect" class="form-label">Divisi Pilihan 2</label>
+              <select id="disabledSelect" class="form-select">
+                <option>Divisi Pilihan 2</option>
+                <option>Sekretaris Umum</option>
+                <option>Bendahara Umum</option>
+                <option>Akademik</option>
+                <option>Kaderisasi</option>
+                <option>Kominfo</option>
+                <option>Minat dan Bakat</option>
+                <option>Kewirausahaan</option>
+              </select>
+            </div>
+            <div class="form-floating mb-2">
+              <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+              <label for="floatingTextarea2">Alasan dan Inovasi</label>
+            </div> 
+            <div class="form-control mb-2">
+              <label for="disabledSelect" class="form-label">Apakah bersedia jika dipindahkan divisi lain?</label>
+              <br>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                <label class="form-check-label" for="inlineRadio1">Ya</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                <label class="form-check-label" for="inlineRadio2">Tidak</label>
+              </div>
+            </div>
+            <div class="form-floating mb-2">
+              <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+              <label for="floatingTextarea2">Alasan</label>
+            </div>
+            <div class="form-floating mb-2">
+              <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+              <label for="floatingTextarea2">Komitmen Jika Terpilih di Kepengurusan HMSI FMIPA Untan Periode 2022/2023</label>
+            </div> 
+  
+                <button type="submit" class="btn btn-primary mt-4 mb-4" data-bs-toggle="modal" data-bs-target="#myModal">Submit</button>
+        </form>
+    </div>
+</body>
+</html>

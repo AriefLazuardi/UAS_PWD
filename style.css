@@ -1,0 +1,80 @@
+html {
+  position: relative;
+}
+
+
+.card-body {
+  color:black;
+}
+
+#dark-toggle-wrapper {
+  display: flex;
+}
+
+#dark-toggle-wrapper #span-light {
+  margin-right: 0.5rem; /* 8px */
+  font-size: 0.875rem; /* 14px */
+  line-height: 1.25rem; /* 20px */
+  font-weight: 700;
+}
+
+#dark-toggle-wrapper #dark-toggle {
+  display: none;
+}
+
+#dark-toggle:checked ~ label div#toggle-circle {
+  transform: translateX(100%);
+}
+
+#dark-toggle-wrapper #label #circle-wrapper {
+  position: relative;
+  display: flex;
+  height: 1.5rem; /* 24px */
+  width: 2.75rem; /* 44px */
+  cursor: pointer;
+  align-items: center;
+  border-radius: 9999px;
+  background-color: #06b6d4;
+}
+
+#dark-toggle-wrapper #label #circle-wrapper #toggle-circle {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  height: 1.25rem /* 20px */;
+  width: 1.25rem /* 20px */;
+  border-radius: 9999px;
+  background-color: white;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 300ms;
+}
+
+#dark-toggle-wrapper #span-dark {
+  margin-right: 0.5rem; /* 8px */
+  font-size: 0.875rem; /* 14px */
+  line-height: 1.25rem; /* 20px */
+  font-weight: 700;
+}
+
+.navbar .container-fluid #navbarNavAltMarkup .navbar-nav a {
+  color: black;
+}
+
+/* Dark Mode */
+.dark body {
+  background-color: black;
+  color: white;
+}
+
+.ico{
+width: 15px; 
+height:15px; 
+margin-top:-50px; 
+margin-left: -110px;
+}
+
+.dark .navbar .container-fluid #navbarNavAltMarkup .navbar-nav a {
+   color: white;
+}
+/* Dark Mode */
