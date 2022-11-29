@@ -2,9 +2,8 @@ html {
   position: relative;
 }
 
-
 .card-body {
-  color:black;
+  color: black;
 }
 
 #dark-toggle-wrapper {
@@ -67,14 +66,19 @@ html {
   color: white;
 }
 
-.ico{
-width: 15px; 
-height:15px; 
-margin-top:-50px; 
-margin-left: -110px;
+.ico {
+  width: 15px;
+  height: 15px;
+  margin-top: -50px;
+  margin-left: -110px;
 }
 
-.dark .navbar .container-fluid #navbarNavAltMarkup .navbar-nav a {
-   color: white;
+.dark .navbar .container-fluid a {
+  color: white;
 }
+
+.dark .navbar .container-fluid .collapse #navbar-kontol a.nav-link {
+  color: white;
+}
+
 /* Dark Mode */
